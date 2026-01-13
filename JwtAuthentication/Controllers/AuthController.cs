@@ -13,6 +13,7 @@ namespace JwtAuthentication.Controllers
     [Route("api/[controller]")]
     [ApiController]
     
+    //Controller
     public class AuthController : ControllerBase
     {
         private readonly JwtContext jwtContext;
